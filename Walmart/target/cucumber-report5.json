@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 24539872600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DaConsultaAoCarrinho.iniciar()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Caminho Feliz",
+        "description": "",
+        "id": "consultacompra;caminho-feliz",
+        "after": [
+          {
+            "result": {
+              "duration": 892116500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DaConsultaAoCarrinho.Finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41224706900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "que acesso o site Submarino",
+            "match": {
+              "location": "DaConsultaAoCarrinho.que_acesso_o_site_Submarino()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22049236700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "pesquiso por \"smartphone\" e pressiona Enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "smartphone",
+                  "offset": 14
+                }
+              ],
+              "location": "DaConsultaAoCarrinho.pesquiso_por_e_pressiona_Enter(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 453470699,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "exibe a lista de produtos relacionados com \"smartphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "smartphone",
+                  "offset": 44
+                }
+              ],
+              "location": "DaConsultaAoCarrinho.exibe_a_lista_de_produtos_relacionados_com(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "ConsultaCompra",
+    "description": "",
+    "id": "consultacompra",
+    "keyword": "Feature",
+    "uri": "DaConsultaAoCarrinho.feature"
+  }
+]
