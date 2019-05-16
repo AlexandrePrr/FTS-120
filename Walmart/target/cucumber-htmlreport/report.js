@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 24539872600,
+  "duration": 16458088800,
   "status": "passed"
 });
 formatter.scenario({
@@ -37,7 +37,7 @@ formatter.match({
   "location": "DaConsultaAoCarrinho.que_acesso_o_site_Submarino()"
 });
 formatter.result({
-  "duration": 41224706900,
+  "duration": 30724365600,
   "status": "passed"
 });
 formatter.match({
@@ -50,7 +50,7 @@ formatter.match({
   "location": "DaConsultaAoCarrinho.pesquiso_por_e_pressiona_Enter(String)"
 });
 formatter.result({
-  "duration": 22049236700,
+  "duration": 30445139800,
   "status": "passed"
 });
 formatter.match({
@@ -63,11 +63,11 @@ formatter.match({
   "location": "DaConsultaAoCarrinho.exibe_a_lista_de_produtos_relacionados_com(String)"
 });
 formatter.result({
-  "duration": 453470699,
+  "duration": 4530860200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 892116500,
+  "duration": 808602700,
   "status": "passed"
 });
 });
